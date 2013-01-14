@@ -71,7 +71,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RuntimeConfig.cs" />
     <Compile Include="Util\Arguments.cs" />
+    <Compile Include="Util\ConsoleSpinner.cs" />
+    <Compile Include="Util\Helpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
